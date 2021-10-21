@@ -44,7 +44,6 @@ export const FlatListImage: FC<FlatListImageProps> = ({navigation, data, nothing
 const styles = StyleSheet.create({
     listImage:{
         marginTop:15, 
-        marginHorizontal:15, 
         alignSelf:'center'
     },
     image:{

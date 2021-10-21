@@ -22,7 +22,7 @@ export const ButtonsForDelteAndAddFavorite: FC<ItemPropsButtons> = ({favorite, c
       <View style={styles.hr} />
       <TouchableOpacity style={styles.touchContainer} onPress={removeImg}>
         <View style={{flexDirection: 'row'}}>
-          <Icon name="trash-alt" size={22} />
+          <Icon name="trash" size={22} />
           <Text style={styles.touchContent}>Удалить изображение</Text>
         </View>
       </TouchableOpacity>
